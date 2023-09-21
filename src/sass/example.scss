@@ -1,0 +1,74 @@
+$light-pink:#FFF5F6;
+$pink: #FFB8CA;
+$dark-pink: #D41443;
+$wite: #fff;
+$yellow: #F0D1A5;
+$green: #C2E297;
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+//   cursor: url('../images/cursor-green.png') 15 12, auto;
+  border: none;
+  font-family: inherit;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+//   cursor: url('../images/cursor-green.png') 15 12, auto;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: $wite;
+  font-weight: medium;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+
+// Mobil 
+.container {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
