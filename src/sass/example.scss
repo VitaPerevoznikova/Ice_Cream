@@ -4,6 +4,7 @@ $dark-pink: #D41443;
 $wite: #fff;
 $yellow: #F0D1A5;
 $green: #C2E297;
+$black: #000;
 
 
 p,
@@ -49,7 +50,8 @@ img {
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: $wite;
-  font-weight: medium;
+  // font-weight: medium;
+  // position: relative;
 }
 
 .visually-hidden {
@@ -71,4 +73,19 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
-  
+  // 768 Tablet
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+};
+// 1200 Dextop
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1970px;
+  }
+};
