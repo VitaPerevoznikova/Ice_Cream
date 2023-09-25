@@ -1,34 +1,44 @@
 <header class="header container">
-  <div class="header-container">
-    <nav class="navigation">
-
-      <div class="nav-container">
+  <div class="header-container ">
+    <div class="nav-container">
         <a class="link-img-logo" href="./index.html">
-        <img class="logo-img"
+        <picture>
+          <source srcset="/src/images/header_img/logo.png  1x,
+          /src/images/header_img/logo@2x.png  2x"
+           media="(min-width: 1200px)" width="80">
+           <source srcset="/src/images/header_img/logo.png  1x,
+           /src/images/header_img/logo@2x.png 2x" 
+           media="(min-width: 768px)" width="70">
+           <source srcset="/src/images/header_img/logo.png  1x,
+           /src/images/header_img/logo@2x.png 2x" 
+           media="(min-width: 320px)" width="50">
+           <img class="logo-img"
           src="./images/header_img/logo.png"
           alt="Logotype"
           width="80"
           height="80"
-        /></a> 
+        />
+        </picture>
+      </a>  
         <svg class="svg-open-menu" width="20" height="12">
           <use href="./images/symbol-defs.svg#burger"></use>
         </svg>
       </div>
-     
+     <nav class="navigation">
       <ul class="nav-list">
         <li class="nav-link"><a href="#home">Home</a></li>
         <li class="nav-link"><a href="#about_us">About us</a></li>
         <li class="nav-link"><a href="#products">Products</a></li>
-        </ul>
-
-        <ul class="nav-list-part-2">
-          <li class="nav-link"><a href="#flavors">Flavors</a></li>
-        <li class="nav-link"><a href="#contact_us">Contact Us</a></li>
         <li class=""><a href="#"></a>
           <svg class="" width="30" height="30">
           <use href="./images/symbol-defs.svg#icon-Heart"></use>
         </svg>
       </li>
+        </ul>
+
+        <ul class="nav-list-part-2">
+          <li class="nav-link"><a href="#flavors">Flavors</a></li>
+        <li class="nav-link"><a href="#contact_us">Contact Us</a></li>
         <li class="shopping-cart">
           <img
                 class=""

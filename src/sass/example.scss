@@ -26,7 +26,7 @@ ul {
 button {
   display: block;
   cursor: pointer;
-//   cursor: url('../images/cursor-green.png') 15 12, auto;
+  cursor: url('../images/header_img/free-icon-cursor.png') 15 12, auto;
   border: none;
   font-family: inherit;
 }
@@ -35,7 +35,7 @@ a {
   display: inline-block;
   color: inherit;
   text-decoration: none;
-//   cursor: url('../images/cursor-green.png') 15 12, auto;
+  cursor: url('../images/header_img/free-icon-cursor.png') 15 12, auto;
 }
 
 address {
@@ -50,9 +50,12 @@ img {
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: $wite;
-  // font-weight: medium;
-  // position: relative;
+  cursor: url("../images/header_img/free-icon-cursor.png") 24 33, auto;
 }
+// .section {
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+// }
 
 .visually-hidden {
   position: absolute;
@@ -67,25 +70,26 @@ body {
 
 // Mobil 
 .container {
-    max-width: 280px;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    // position: relative;
   }
   // 768 Tablet
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 };
 // 1200 Dextop
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1970px;
+    width: 1200px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 };
