@@ -1,5 +1,17 @@
-@import './common';
+// reset 
+// @import '.';
+
 @import './example';
-@import './hero.scss';
-@import './header.scss';
+// Base 
+@import './base/common.scss';
+@import './base/nullstyles.scss';
+
+// Components 
+@import './components/btn.scss';
+@import './components/container.scss';
+@import './components/sections.scss';
+
+// Main page
+@import './main-page/header.scss';
+@import './main-page/hero.scss';
 

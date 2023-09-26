@@ -1,6 +1,6 @@
 <section class="hero-box">
     <div  class="container hero-picture">
-  <h1 class="hero-title"><span class="hero-title-span">Grab The Best</span> Ice Cream</h1>
+  <h1 class="hero-title "><span class="hero-title-span">Grab The Best</span> Ice Cream</h1>
   <p class="hero-description">
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum delectus
     nulla voluptatibus blanditiis consequuntur, similique tempore officia!
@@ -8,5 +8,24 @@
     voluptas ipsa?
   </p>
   <button type="button" class="hero-btn">Learn More</button>
+  <div class="hero-img">
+    <picture>
+      <source srcset="/src/images/hero.img/hero-main-img.jpg  1x,
+      /src/images/hero.img/hero-main-img@2x.jpg  2x"
+       media="(min-width: 1200px)" width="240">
+       <source srcset="/src/images/hero.img/hero-main-img.jpg 1x,
+       /src/images/hero.img/hero-main-img@2x.jpg 2x" 
+       media="(min-width: 768px)" width="146">
+       <source srcset="/src/images/hero.img/hero-main-img.jpg  1x,
+       /src/images/hero.img/hero-main-img@2x.jpg 2x" 
+       media="(min-width: 320px)" width="80">
+       <img class="logo-img"
+      src="/src/images/hero.img/hero-main-img.jpg"
+      alt="Ice cream"
+      width="80"
+      height="80"
+    />
+    </picture>
+ </div>
 </div>
 </section>

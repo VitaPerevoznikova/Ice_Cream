@@ -1,0 +1,25 @@
+// Mobil 
+.container {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    // position: relative;
+  }
+  // 768 Tablet
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+};
+// 1200 Dextop
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+};
